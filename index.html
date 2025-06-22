@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Blog</title>
+    <link rel="stylesheet" href="./css/styles.css">
+</head>
+<body>
+    <div class="main-container">
+        <h1>Simple Blog/Post Manager</h1>
+        <div id="main-view">
+            <div id="post-list-section">
+                <h2>Posts</h2>
+                <ul id="post-list"> <li>ibrahim</li>
+                <li>osman</li></ul>
+            </div>
+            <div id="post-dtails-section">
+                <h2>Post Detail</h2>
+                <div id="post-details"><p>Select a post to see details.</p></div>
+            </div>
+        </div>
+        <form id="new-post-form">
+            <h3>Add New Post</h3>
+            <input type="text" id="new-title" placeholder="title" required>
+            <input type="text" id="new-author" placeholder="author" required>
+            <input type="text" id="new-image" placeholder="image URL" required>
+            <textarea id="new-content" placeholder="Content" required></textarea>
+            <button type="submit">Add Post</button>
+        </form>
+    </div>
+
+    <script src="./src/index.js"></script>
+</body>
+</html>

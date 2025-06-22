@@ -1,0 +1,60 @@
+body {
+  font-family: Arial, sans-serif;
+  background:hsl(101, 47%, 85%);
+  color: #222;
+}
+.main-container {
+  width: 80%;
+  max-width: 900px;
+  margin: 30px auto;
+  background: hsl(99, 52%, 72%);
+  padding: 20px 30px;
+  border-radius: 8px;
+  box-shadow: 2px 4px 20px hsl(99, 60%, 78%);
+}
+#main-view {
+  display: flex;
+  gap: 30px;
+}
+#post-list-section {
+  flex: 1.2;
+}
+#post-detail-section {
+  flex: 2;
+}
+#post-list {
+  list-style: square;
+  padding: 0;
+  width: 70%;
+}
+#post-list li {
+  padding: 10px;
+  margin-bottom: 7px;
+  cursor: pointer;
+}
+#post-list li:hover, #post-list li.active {
+  background: hsl(96, 18%, 89%);
+}
+#post-dtails-section img {
+  max-width: 100%;
+  margin-bottom: 10px;
+}
+#new-post-form {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+form input, form textarea {
+  padding: 8px;
+  font-size: 1em;
+  width: 80%;
+  height: 30px;
+}
+form button {
+  width: 30px;
+  height: 30px;
+  width: fit-content;
+  cursor: pointer;
+  background-color: rgb(56, 174, 174);
+}
