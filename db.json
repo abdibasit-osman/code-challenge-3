@@ -1,0 +1,11 @@
+{
+   "posts" : [
+        {
+            "id":1,
+            "title": "Welcome to my blog",
+            "author": "Abdibasit Osman",
+            "image": "https://media.istockphoto.com/id/1403500817/photo/the-craggies-in-the-blue-ridge-mountains.jpg?s=1024x1024&w=is&k=20&c=jLBfnKZZdps-vzXClEPp0X2vwIQSehJZAhP4_OfXldU=",
+            "content": "This is the very first post on my blog!<br><br> <strong>Feel free to add yours!</strong>"
+        }     
+    ]
+}

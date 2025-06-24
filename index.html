@@ -7,26 +7,25 @@
     <link rel="stylesheet" href="./css/styles.css">
 </head>
 <body>
-    <div class="main-container">
-        <h1>Simple Blog/Post Manager</h1>
-        <div id="main-view">
-            <div id="post-list-section">
+    <div class="container">
+        <div><h1>Simple Blog/Post Manager</h1></div>
+        <div id="post">
+            <div id="post-list">
                 <h2>Posts</h2>
-                <ul id="post-list"> <li>ibrahim</li>
-                <li>osman</li></ul>
+                <ul id="posts-ul"><li>woooow!</li></ul>
             </div>
-            <div id="post-dtails-section">
-                <h2>Post Detail</h2>
-                <div id="post-details"><p>Select a post to see details.</p></div>
+            <div id="post-details">
+                <h2>Post Details</h2>
+                <p>Select a post to see details.</p>
             </div>
         </div>
         <form id="new-post-form">
             <h3>Add New Post</h3>
-            <input type="text" id="new-title" placeholder="title" required>
-            <input type="text" id="new-author" placeholder="author" required>
-            <input type="text" id="new-image" placeholder="image URL" required>
-            <textarea id="new-content" placeholder="Content" required></textarea>
-            <button type="submit">Add Post</button>
+            <input type="text" id="form-title" placeholder="Title" required>
+            <input type="text" id="form-author" placeholder="Author" required>
+            <input type="text" id="form-image" placeholder="Image URL" required>
+            <textarea name="text" id="form-content" placeholder="Content" required></textarea>
+            <button id="form-button">Add post</button>
         </form>
     </div>
 
